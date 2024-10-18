@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "bold";
+    src: url(./assets/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Extra";
+    src: url(./assets/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url(./assets/OpenSans-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --d-grey: #48555B;
+    --blue: #16ACE8;
+    --white: #FFFFFF;
+}
+
+main {
+    margin-top: 58px;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    width: 941px;
+    height: 344px;
+    background: var(--white);
+}
+
+h3 {
+    font-family: "bold";
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    text-align: center;
+    color: var(--d-grey);
+}
+
+.blok-1 {
+    margin-top: 60px;
+
+}
+
+.text-1 {
+    font-family: "bold";
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
+
+.text-2 {
+    font-family: "Regular";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 177%;
+    margin-top: 30px;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
+
+span {
+    color: #16ACE8;
+}
+
+/* ---------------------------------------------------------- */
+.contents {
+    display: flex;
+    gap: 76px;
+
+}
+
+.blok-2 {
+    display: flex;
+    align-self: flex-end;
+}
+
+.PLAN {
+    background: url(./assets/photo/plan.png);
+    width: 140px;
+    height: 224px;
+    margin-right: 20px;
+}
+
+.MANAGE {
+    background: url(./assets/photo/manage\ \(1\).png);
+    width: 140px;
+    height: 224px;
+    margin-right: 20px;
+}
+
+.BUILD {
+    background: url(./assets/photo/deliver.png);
+    width: 140px;
+    height: 224px;
+    margin-right: 20px;
+}
